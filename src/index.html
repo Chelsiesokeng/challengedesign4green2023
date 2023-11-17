@@ -5,28 +5,220 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Test des critéres RGESN</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-	<link rel="stylesheet" href="styles/index.css" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="assets/img/kxp_fav.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css" type="text/css">
 	<link rel="icon" href="img/logo.svg" type="image/svg+xml">
 
 </head>
-<body class=".container-fluid">
-<header class="position-relative container">
-    <a href="#" class="row position-absolute top-0 start-50 translate-middle">
-        <img src="img/logo.svg" id="logo" alt="EcoTest" title="ecotest">
-    </a>
-    <br><br>
-    <h2 class="display-1 fw-bolder" id="talk">Optimisez l'empreinte de votre code</h1>
-    <h3 class="text-gray-soft text-regular">Vérifiez la responsabilité environnementale de votre site dès maintenant !</h5>
-    <div id="main_form" class="controls"> 
-        <form id="" novalidate>
-            <label for="input_url">Adresse de votre site internet :</label>
-            <br>
-            <input id="input_url" type="url" class="control url">
-            <input class="control" type="submit" id="button_wave" value="confirm">
+<body >
+
+<div class="sidebar">
+    <!-- ========== List ============  -->
+
+    <ul class="sidebar-list">
+        <!-- ------------filtre----------- -->
+           
+        
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-collection'></i>
+                    <span class="name">Stratégique</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Category</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">Posts</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-extension'></i>
+                    <span class="name">Plugins</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Plugins</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">UX/UI</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">Contenus</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">Frontend</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">Backend</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+
+        <!-- -------- Dropdown List Item ------- -->
+        <li class="dropdown">
+            <div class="title">
+                <a href="#" class="link">
+                    <i class='bx bx-book-alt'></i>
+                    <span class="name">Hébergement</span>
+                </a>
+                <i class='bx bxs-chevron-down'></i>
+            </div>
+            <div class="submenu">
+                <a href="#" class="link submenu-title">Posts</a>
+            </div>
+        </li>
+        
+    </ul>
+   </div>
+</div>
+
+<!-- --------------header-------------- -->
+
+<!-- ============= Home Section =============== -->
+<section class="home">
+    <header class="position-relative container">
+        <a href="#" class="row position-fixed start-50 translate-middle">
+            <img src="img/logo.svg" id="logo" alt="EcoTest" title="ecotest">
+        </a>
+        <br><br>
+        <h1 class="display-1 fw-bolder title" >Optimisez l'empreinte de votre code :</h1>
+        <h3 class="text-gray-soft text-regular undertitle">Vérifiez la responsabilité environnementale de votre site dès maintenant !</h3>
+        <div  class="controls">
+            <form id="connexion">
+                <label for="input_url"><h3>Adresse de votre site internet :</h3></label>
+                <br>
+                <input id="input_url" type="url" class="control url">
+                <input class="control" type="submit" id="button_url" value="confirm">
+                <br>
+                <label for="input_url"><h5>Vous avez un travail en cour? numero de dossier :</h3></label>
+                <br>
+                <input id="input_no_doc" type="url" class="control url">
+                <input class="control" type="submit" id="button_doc" value="confirm">
+            </form>
+        </div>
+    </header>
+    <div class="container-fluid">
+        <form class="d-flex" style="margin: 5%;">
+        <input class="form-control me-2" type="search" placeholder="entrez le filtre" aria-label="filtre">
+        <button id="filtre" class="btn btn-outline-success" type="submit">Filtrer</button>
         </form>
-    </div>
-</header>
+    </div> 
     
+    <!--div class="container"-->
+    <div id="first-card" class="card critere-card" style="visibility: hidden;">
+    <form id="test" action="#" method="post">
+      <!-- Partie Stratégie -->
+      <div class="partie" >
+        <h2 id="thematique">Stratégie</h2>
+        <button type="button" id="back" class="btn btn-outline-warning">Back</button>
+        <button type="button" id="next" class="btn btn-outline-success">Next</button>
+        <!-- Critère 1 -->
+        <div class="card critere-card">
+          <h3 class="card-title" id="critere">Critère 1</h3>
+          <div class="row m-2 px-2 bg-secondary" style="border-radius: 5px; color:aliceblue">
+            <div class="col form-check">
+                <input class="form-check-input" type="radio" name="etat" id="conforme">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Conforme
+                </label>
+              </div>
+              <div class="col form-check">
+                <input class="form-check-input" type="radio" name="etat" id="non-conforme">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Non Conforme
+                </label>
+              </div>
+              <div class="col form-check">
+                <input class="form-check-input" type="radio" name="etat" id="en-deploiement">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  En Déploiement
+                </label>
+              </div>
+              <div class="col form-check">
+                <input class="form-check-input" type="radio" name="etat" id="non-applicable">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Non Applicable
+                </label>
+              </div>
+          </div>
+          <div class="card-body" id="desc">
+             Description du critere  
+          </div>
+      </div>
+      <button type="submit" class="btn btn-primary btn-submit">
+        Enregister
+      </button>
+    </form>
+  </div>
+
+</section>
+
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     
 </body>
 </html>
